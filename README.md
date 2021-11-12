@@ -9,13 +9,13 @@
 
 • Support Vector Machine (SVM) classifiers are trained. A random subset of 1/2 of the available speech data (i.e. half of the persons) is used to train the emotion recognition system, first using a set of simple prosodic parameter features and then a classical set of MFCC derived features. The rest of the data (the other half of the persons) is then used to evaluate the performances of the trained recognition systems.
 ### Task 1. Feature Extraction
-1. MFCC calculations using the provided sample speech signal.
+a. MFCC calculations using the provided sample speech signal.
 
-2. Extract the Intensity/Energy parameter.
+b. Extract the Intensity/Energy parameter.
 
-3. Extract the Pitch/F0 feature.
+c. Extract the Pitch/F0 feature.
 
-4. Extract the Rhythm/Durations parameter.
+d. Extract the Rhythm/Durations parameter.
 
-5. Check the extracted feature.
+e. Check the extracted feature.
 ### Task 2. Speech Emotion Classification
