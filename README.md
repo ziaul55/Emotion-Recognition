@@ -8,3 +8,10 @@ The original speech data is a set of simulated emotional speech (i.e. acted) fro
 To produce speaker independent and content dependent emotion recognition case (i.e. while a same persons samples are not included in both training and testing sets, the same sentences are spoken in both the training and the testing sets) that could correspond to a public user interface with specific commands.
 
 Support Vector Machine (SVM) classifiers are trained. A random subset of 1/2 of the available speech data (i.e. half of the persons) is used to train the emotion recognition system, first using a set of simple prosodic parameter features and then a classical set of MFCC derived features. The rest of the data (the other half of the persons) is then used to evaluate the performances of the trained recognition systems.
+### Task 1. Feature Extraction
+MFCC calculations using the provided sample speech signal.
+Extract the Intensity/Energy parameter.
+Extract the Pitch/F0 feature.
+Extract the Rhythm/Durations parameter.
+Check the extracted feature.
+### Task 2. Speech Emotion Classification
