@@ -1,4 +1,4 @@
-# Facial Expression Recognition
+# Emotion Recognition
 ### Objective
 • Task is to extract a set of prosodic correlates (i.e. suprasegmental speech parameters) and cepstral features from speech recordings. Then, an emotion recognition system is constructed to recognize happy versus sad emotional speech (a quite easy two class problem) using a simple supervised classifier training and testing structure.
 
