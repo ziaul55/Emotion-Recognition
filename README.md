@@ -11,11 +11,16 @@
 ### Task 1. Feature Extraction
 a. MFCC calculations using the provided sample speech signal.
 
-b. Extract the Intensity/Energy parameter.
+b) Extract the Intensity/Energy parameter.
 
-c. Extract the Pitch/F0 feature.
+c) Extract the Pitch/F0 feature.
 
-d. Extract the Rhythm/Durations parameter.
+d) Extract the Rhythm/Durations parameter.
 
-e. Check the extracted feature.
+e) Check the extracted feature.
 ### Task 2. Speech Emotion Classification
+a) Train and evaluate your SVM classifiers.
+b) Train and evaluate a Random Forest Classifier.
+c) Train and evaluate a Neural Network Classifier.
+### Task 3. Speech Emotion Classification using SVM, Subject Independent
+Generate a person independent 10-fold cross-validation (CV) estimate of the emotion recognition system performance.
